@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 06 - Gestor de Inventario CLP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gestor de Inventario</h1>
+        
+        <div class="panel-info">
+            <div id="valor-total">Valor Total del Inventario: Calculando...</div>
+            <div id="producto-caro">Producto más Caro: Buscando...</div>
+            <div id="status-message"></div>
+        </div>
+
+        <div class="btn-panel">
+            <button id="btn-original">Ver Todo el Inventario</button>
+            <button id="btn-filter">1. Filtrar con Stock (filter)</button>
+            <button id="btn-map">2. Aplicar 15% Descuento (map)</button>
+            <button id="btn-save" class="btn-async">5. Guardar Inventario (async/await)</button>
+        </div>
+
+        <div id="inventario-container" class="grid-inventario"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
